@@ -1,12 +1,32 @@
 <head>
     <link href="bootstrap.css" rel="stylesheet">
+      <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <link href="style.css" rel="stylesheet">
 </head>
 
-<body>
+<style>
+  .footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    color: rgb(172, 172, 172);
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Inter UI Light Italic';
+  }
+  </style>
+
+<body style="font-family: Inter UI Light;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <img style="width: 64px; height: 64px; margin-right: 10px;" src="img/tricolor-logo-placeholder.jpg">
-          <a class="navbar-brand" href="#">Studio Tricolor</a>
+          <a class="navbar-brand" href="#">Studio Tricolor
+            <p style="font-size: 10px; font-style: italic; margin-top: -5px;">Founded in 2021</p>
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -19,10 +39,13 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="athenaeum.html">Athenaeum</a>
+                <a class="nav-link" href="athenaeum.html">Athenaeum<img style="height: 25px;" src="img/athenaeum/athn-icon.png"></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Lysis</a>
+                <a class="nav-link" href="lysis.html">Lysis<img style="margin-left: 5px; height: 25px; border-radius: 100%;" src="img/lysis/lysis-icon.png"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="grove.html">Grove</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Our Team</a>
@@ -37,4 +60,82 @@
           </div>
         </div>
       </nav>
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="img/screenshots/screenshot01.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="img/screenshots/screenshot02.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="img/screenshots/screenshot03.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="img/screenshots/screenshot04.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+
+      <div class="container" style="padding-top: 25px;">
+        <div class="row">
+          <div class="col">
+            <h3 style="font-family: 'Inter UI Light Italic';">About Us</h3>
+            <div class="card">
+              <div class="card-body">
+                Studio Tricolor is a small team of developers that makes games focused on surrealism, with an emphasis on aesthetics and atmosphere.
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h3 style="font-family: 'Inter UI Light Italic';">Latest</h3>
+            <div class="card">
+              <div class="card-body">
+                Developer logs will be put here!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="padding-top: 25px;">
+        <div class="row">
+          <h3 style="font-family: 'Inter UI Light Italic';">Check out our games</h3>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="img/screenshots/screenshot05.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Athenaeum</h5>
+                <p class="card-text">Discover the horrors of an abandoned library. Free its soul.</p>
+                <a href="athenaeum.html" class="btn btn-primary">Go</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="img/screenshots/screenshot06.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lysis</h5>
+                <p class="card-text">Explore a surrealist world.</p>
+                <a href="lysis.html" class="btn btn-primary">Go</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="img/screenshots/grove-placeholder.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Grove</h5>
+                <p class="card-text">From a seed, to a forest.</p>
+                <a href="athenaeum.html" class="btn btn-primary">Go</a>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
 </body>
+
+<div class="footer">
+  <p>Studio Tricolor | 2021</p>
+</div>

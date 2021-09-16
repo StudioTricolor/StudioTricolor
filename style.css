@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Inter UI Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Inter UI Light'), url(font/Inter-Light.woff) format('woff');
+    }
+
+    @font-face {
+        font-family: 'Inter UI Light Italic';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Inter UI Light'), url(font/Inter-LightItalic.woff) format('woff');
+        }
+
+@font-face {
+    font-family: 'Inter UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Inter UI Regular'), url(font/Inter-UI-Regular.woff) format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Inter UI Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Inter UI Italic'), url('Inter-UI-Italic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Inter UI Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Inter UI Medium'), url('font/Inter-UI-Medium.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Inter UI Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Inter UI Medium Italic'), url('Inter-UI-MediumItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Inter UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Inter UI Bold'), url('Inter-UI-Bold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Inter UI Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Inter UI Bold Italic'), url('Inter-UI-BoldItalic.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Inter UI Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Inter UI Black'), url('Inter-UI-Black.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Inter UI Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Inter UI Black Italic'), url('Inter-UI-BlackItalic.woff') format('woff');
+    }
